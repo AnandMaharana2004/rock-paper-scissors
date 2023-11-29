@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock-paper-scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Rock-Paper-Scissors</h1>
+
+        <div class="scrobord">
+            <div class="user hand-size">user</div>
+            <div class="score hand-size"> <span id="user-score">0</span> : <span id="comp-score">0</span></div>
+            <div class="compu hand-size">comp</div>
+        </div>
+
+        <div class="hands">
+            <img src="/images/rock-hand.jpeg" alt="rock" id="rock" class="hand-image">
+            <img src="/images/paper-hand.png" alt="paper" id="paper" class="hand-image">
+            <img src="/images/screeser.jpeg" alt="scissors" id="scissor" class="hand-image">
+        </div>
+
+        <div class="laterBord" id="laterBorder">let's start</div>
+
+        <div class="imageDisplays">
+
+            <div class="displayUserChoice imageSize" id="userChaice">
+                <h2>your's choice</h2>    
+            </div>
+
+            <div class="disPlayImage imageSize" id="computerChoice">
+                <h2>computer's choice</h2> 
+                
+            </div>
+
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    color: white;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: linear-gradient(rgb(71, 74, 74),rgb(57, 61, 57));
+
+}
+.wrapper > h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3px 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.scrobord{
+    background-color: rgb(25, 99, 99);
+    height: 50px;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+    position: absolute;
+    top: 70px;
+    left: 35%;
+
+}
+.hand-size{
+    border: 2px solid rgb(21, 20, 20);
+    border-radius: 5px;
+    height: 1.8rem;
+    width: 4rem;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.hands{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 10rem;
+    height: 200px;
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    padding: 2px;
+}
+.hand-image{
+    border: 10px solid rgba(0, 0, 0, 0.674);
+    border-radius: 50%;
+    cursor: pointer;
+    /* transition: all 0.3s ; */
+}
+
+.hand-image:hover{
+    border: 10px solid rgb(148, 152, 151);
+}
+.hand-image:active{
+    border-color: rgb(127, 255, 155);
+}
+
+.laterBord{
+    height: 50px;
+    width: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 44%;
+    left: 25%;
+    /* align-self: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 40px;
+    
+}
+
+.imageDisplays{
+    position: absolute;
+    top: 45%;
+    left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 90vw;
+    /* background-color: aqua; */
+    border-radius: 20px;
+
+}
+.imageSize{
+    height: 300px;
+    width: 400px;
+    align-self: center;
+    border-radius: 5%;
+    border: 2px solid grey;
+    background-repeat: no-repeat;
+    background-size: 273px 229px;;
+    background-position: center;
+}
