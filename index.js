@@ -53,25 +53,25 @@ function game(userChoice){
 function computer_Choices_images(){
 
     if(computer_Choices == 'p'){
-        displayComputerImage.style.backgroundImage = "url(/images/paper-hand.png)";
+        displayComputerImage.style.backgroundImage = "url(/images/paper.png)";
     }
     else if(computer_Choices == 'r'){
-        displayComputerImage.style.backgroundImage = "url(/images/rock-hand.jpeg)";
+        displayComputerImage.style.backgroundImage = "url(/images/rock.png)";
     }
     else if(computer_Choices == 's'){
-        displayComputerImage.style.backgroundImage = "url(/images/screeser.jpeg)";
+        displayComputerImage.style.backgroundImage = "url(/images/scissors.png)";
     }
 }
 
 function user_choices_images(){
     if(userChoice == 'p'){
-        displayUserImage.style.backgroundImage = "url(/images/paper-hand.png)";
+        displayUserImage.style.backgroundImage = "url(/images/paper.png)";
     }
     else if(userChoice == 'r'){
-        displayUserImage.style.backgroundImage = "url(/images/rock-hand.jpeg)";
+        displayUserImage.style.backgroundImage = "url(/images/rock.png)";
     }
     else if(userChoice == 's'){
-        displayUserImage.style.backgroundImage = "url(/images/screeser.jpeg)";
+        displayUserImage.style.backgroundImage = "url(/images/scissors.png)";
     }
 }
 
